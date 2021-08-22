@@ -27,16 +27,14 @@ public class MergeTwoSortedLists {
 
         if (l1 == null) {
             if (l2 == null) {
-                cur = null;
-                return cur;
+                return null;
             } else {
                 cur = l2;
                 return cur;
             }
         } else if (l2 == null) {
             if (l1 == null) {
-                cur = null;
-                return cur;
+                return null;
             } else {
                 cur = l1;
                 return cur;
